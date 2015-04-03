@@ -1,0 +1,21 @@
+{
+  "name": "page-object-js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d0lfin/page-object-js.git"
+  },
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "main": "./lib/page-object.js",
+  "dependencies": {
+    "selenium-webdriver": "2.44.0"
+  },
+  "maintainers": [
+    {
+      "name": "dolf",
+      "email": "to.dolfin@gmail.com"
+    }
+  ]
+}
