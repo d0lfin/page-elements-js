@@ -1,0 +1,12 @@
+{
+  "tagName": "body",
+  "elementsByJson": [{
+    "json": "selectors/tagName.json"
+  }],
+  "elementsByTagName": [{
+    "tagName": "div"
+  }],
+  "child": {
+    "json": "selectors/child/elements.json"
+  }
+}

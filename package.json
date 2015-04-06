@@ -12,6 +12,9 @@
   "dependencies": {
     "webdriver-sync": "0.15.9"
   },
+  "devDependencies": {
+    "mocha": "2.2.1"
+  },
   "maintainers": [
     {
       "name": "dolf",
