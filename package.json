@@ -1,6 +1,6 @@
 {
   "name": "page-object-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/d0lfin/page-object-js.git"
@@ -10,7 +10,7 @@
   },
   "main": "./lib/page-object.js",
   "dependencies": {
-    "selenium-webdriver": "2.44.0"
+    "webdriver-sync": "0.15.9"
   },
   "maintainers": [
     {
