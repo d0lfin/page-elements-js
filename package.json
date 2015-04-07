@@ -1,16 +1,18 @@
 {
-  "name": "page-object-js",
-  "version": "1.0.3",
-  "description": "Simple getters for page object elements.",
+  "name": "page-elements-js",
+  "version": "1.0.0",
+  "description": "Simple getters for WebElements.",
   "keywords": [
     "javascript",
     "selenium",
     "webdriver",
     "testing",
-    "page object"
+    "page object",
+    "HtmlElements",
+    "WebElement"
   ],
   "bugs": {
-    "url": "https://github.com/d0lfin/page-object-js/issues",
+    "url": "https://github.com/d0lfin/page-elements-js/issues",
     "email": "to.dolfin@gmail.com"
   },
   "licenses": [
@@ -23,10 +25,10 @@
     "name": "Alexey Emelin",
     "email": "to.dolfin@gmail.com"
   },
-  "main": "./lib/page-object.js",
+  "main": "./lib/page-elements.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/d0lfin/page-object-js.git"
+    "url": "https://github.com/d0lfin/page-elements-js.git"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"

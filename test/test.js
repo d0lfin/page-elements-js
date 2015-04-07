@@ -1,7 +1,7 @@
 var URL = 'https://google.com';
 
 var assert = require('assert'),
-    PageObject = require('../lib/page-object'),
+    PageElement = require('../lib/page-elements'),
     wd = require('webdriver-sync');
 
 describe('Page object library tests', function() {
@@ -31,7 +31,7 @@ describe('Page object library tests', function() {
                 file = './test/elements/selectors/' + test.join('') + '.json';
 
             it('should find root element by ' + name, function () {
-                var page = new PageObject(driver, file);
+                var page = new PageElement(driver, file);
                 assert.ok(page());
             });
         });
@@ -41,17 +41,17 @@ describe('Page object library tests', function() {
         var file = './test/elements/google.json';
 
         it('should find multiple child elements by json', function() {
-            var page = new PageObject(driver, file);
+            var page = new PageElement(driver, file);
             assert.ok(page().elementsByJson().length > 0);
         });
 
         it('should find multiple child elements by tag name', function() {
-            var page = new PageObject(driver, file);
+            var page = new PageElement(driver, file);
             assert.ok(page().elementsByTagName().length > 0);
         });
 
         it('should find multiple child elements by tag name from json child', function() {
-            var page = new PageObject(driver, file);
+            var page = new PageElement(driver, file);
             assert.ok(page().child().elementsByTagName().length > 0);
         });
     });
@@ -60,12 +60,12 @@ describe('Page object library tests', function() {
         var file = './test/elements/google.json';
 
         it('should find multiple elements child by tag name', function() {
-            var page = new PageObject(driver, file);
+            var page = new PageElement(driver, file);
             assert.ok(page().elements()[0].child());
         });
 
         it('should find multiple elements child by json', function() {
-            var page = new PageObject(driver, file);
+            var page = new PageElement(driver, file);
             assert.ok(page().elements()[0].jsonchild());
         });
     });
