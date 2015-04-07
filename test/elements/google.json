@@ -8,5 +8,14 @@
   }],
   "child": {
     "json": "selectors/child/elements.json"
-  }
+  },
+  "elements": [{
+    "xpath": ".//div[@id = 'searchform']",
+    "child": {
+      "tagName": "div"
+    },
+    "jsonchild": {
+      "json": "selectors/tagName.json"
+    }
+  }]
 }

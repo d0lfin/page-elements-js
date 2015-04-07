@@ -57,6 +57,20 @@ describe('Page object library tests', function() {
         });
     });
 
+    describe('Multiple elements child selectors', function() {
+        var file = './test/elements/google.json';
+
+        it('should find multiple elements child by tag name', function() {
+            var page = new PageObject(driver, file);
+            assert.ok(page().elements()[0].child());
+        });
+
+        it('should find multiple elements child by json', function() {
+            var page = new PageObject(driver, file);
+            assert.ok(page().elements()[0].jsonchild());
+        });
+    });
+
     after(function () {
         driver.quit();
     });
