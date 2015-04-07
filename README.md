@@ -67,7 +67,7 @@ var PageObject = require('page-object-js'),
 driver.manage().timeouts().implicitlyWait(5, wd.TimeUnit.SECONDS);
 driver.get('http://yourhost');
 ```
-Next, if you want to send keys to password field in your login for, you need to write next string:
+Next, if you want to send keys to password field in your login form, you need to write next string:
 ```javascript
 page().header().form().password().sendKeys('some text');
 ```
