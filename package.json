@@ -1,7 +1,7 @@
 {
   "name": "page-object-js",
   "version": "1.0.2",
-  "description": "Page object pattern realisation.",
+  "description": "Simple getters for page object elements.",
   "keywords": [
     "javascript",
     "selenium",
