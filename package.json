@@ -8,6 +8,9 @@
   "engines": {
     "node": ">= 0.8.x"
   },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
   "main": "./lib/page-object.js",
   "dependencies": {
     "webdriver-sync": "0.15.9"
