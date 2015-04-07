@@ -11,7 +11,6 @@ describe('Page object library tests', function() {
 
     before(function () {
         driver = new wd.PhantomJSDriver();
-        //driver = new wd.ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, wd.TimeUnit.SECONDS);
         driver.get(URL);
     });
