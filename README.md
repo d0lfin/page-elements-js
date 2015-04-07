@@ -80,4 +80,4 @@ links.forEach(function(link) {
 ```
 
 # how it works
-When you create instance of PageObject class, it read tree of your page structure and try to find next keywords: className, cssSelector, id, linkText, name, partialLinkText, tagName, xpath, json. Each of this using by webdriver for "findElement" method like selector, except last word - "json". This word using for include other files with html structure in current tree. All other words using like names for element childrens. Also you can set array for child fild, then webdriver use method "findElements" for this child.
+When you create instance of PageObject class, it read tree of your page structure and try to find next keywords: className, cssSelector, id, linkText, name, partialLinkText, tagName, xpath, json. Each of this using by webdriver for "findElement" method like selector, except last word - "json". This word using for include other files with html structure in current tree. All other words using like names for child elements. Also you can set array for child field, then webdriver use method "findElements" for this child.
