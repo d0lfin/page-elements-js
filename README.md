@@ -1,6 +1,6 @@
 # page-object-js
 
-[![Build status](https://travis-ci.org/d0lfin/page-object-js.svg?branch=master)](https://travis-ci.org/d0lfin/page-object-js)
+[![Build status](https://travis-ci.org/d0lfin/page-elements-js.svg?branch=master)](https://travis-ci.org/d0lfin/page-elements-js)
 
 Realisation of java HtmlElements for nodejs.
 
@@ -58,11 +58,11 @@ Near this file create folder "elements" with files "header.json" and "button.jso
 ```
 Now create file with your test, for example "test.js":
 ```javascript
-var PageObject = require('page-object-js'),
+var PageObject = require('page-elements-js'),
     wd = require('webdriver-sync'),
     driver = new wd.PhantomJSDriver(),
     file = 'page.json',
-    page = new PageObject(driver, file);
+    page = new PageElement(driver, file);
 
 driver.manage().timeouts().implicitlyWait(5, wd.TimeUnit.SECONDS);
 driver.get('http://yourhost');
