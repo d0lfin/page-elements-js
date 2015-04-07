@@ -1,6 +1,6 @@
 {
   "name": "page-object-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Page object pattern realisation.",
   "keywords": [
     "javascript",
@@ -10,8 +10,8 @@
     "page object"
   ],
   "bugs": {
-    "url" : "https://github.com/d0lfin/page-object-js/issues",
-    "email" : "to.dolfin@gmail.com"
+    "url": "https://github.com/d0lfin/page-object-js/issues",
+    "email": "to.dolfin@gmail.com"
   },
   "licenses": [
     {
