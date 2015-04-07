@@ -1,2 +1,4 @@
 .npmignore
 test
+.DS_Store
+.travis.yml
