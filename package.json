@@ -1,6 +1,6 @@
 {
   "name": "page-object-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple getters for page object elements.",
   "keywords": [
     "javascript",
