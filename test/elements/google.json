@@ -10,7 +10,7 @@
     "json": "selectors/child/elements.json"
   },
   "elements": [{
-    "xpath": ".//div[@id = 'searchform']",
+    "xpath": ".//form[@action = '/search']",
     "child": {
       "tagName": "div"
     },

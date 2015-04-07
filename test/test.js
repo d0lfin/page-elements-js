@@ -10,8 +10,8 @@ describe('Page object library tests', function() {
     this.timeout(20000);
 
     before(function () {
-        //driver = new wd.PhantomJSDriver();
-        driver = new wd.ChromeDriver();
+        driver = new wd.PhantomJSDriver();
+        //driver = new wd.ChromeDriver();
         driver.manage().timeouts().implicitlyWait(5, wd.TimeUnit.SECONDS);
         driver.get(URL);
     });

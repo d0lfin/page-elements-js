@@ -1,5 +1,5 @@
 {
-  "cssSelector": "#viewport",
+  "cssSelector": "#gb",
   "elementsByTagName": [{
     "tagName": "div"
   }]
