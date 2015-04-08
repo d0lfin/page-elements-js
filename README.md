@@ -1,4 +1,4 @@
-# page-object-js
+# page-elements-js
 
 [![Build status](https://travis-ci.org/d0lfin/page-elements-js.svg?branch=master)](https://travis-ci.org/d0lfin/page-elements-js)
 
@@ -50,7 +50,7 @@ Near this file create folder "elements" with files "header.json" and "button.jso
     "password": {
       "name": "password",
     },
-    "button": {
+    "button": {ix readme
       "tagName": "button"
     }
   }
@@ -58,7 +58,7 @@ Near this file create folder "elements" with files "header.json" and "button.jso
 ```
 Now create file with your test, for example "test.js":
 ```javascript
-var PageObject = require('page-elements-js'),
+var PageElement = require('page-elements-js'),
     wd = require('webdriver-sync'),
     driver = new wd.PhantomJSDriver(),
     file = 'page.json',
